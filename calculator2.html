@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc2.css">
+</head>
+<body>
+    <h1 align="center">CALCULATOR</h1>
+    <marquee class="marq" direction="left" loop="">
+        <div class="cont">This is a simple Calculator by me!!</div>
+    </marquee>
+    <form action="" align="center">
+        <table id="calculator" align="center">
+            <tr>
+                <td colspan="3">
+                    <input type="text" class="box" id="result">
+                </td>
+                <td><input type="button" class="button" value="C" onclick="clear()"></td>
+
+            </tr>
+      
+            <tr>
+                <td><input type="button" class="button" value="1" onclick="equation('1')"></td>
+                <td><input type="button" class="button" value="2" onclick="equation('2')"></td>
+                <td><input type="button" class="button" value="3" onclick="equation('3')"></td>
+                <td><input type="button" class="button" value="/" onclick="equation('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="4" onclick="equation('4')"></td>
+                <td><input type="button" class="button" value="5" onclick="equation('5')"></td>
+                <td><input type="button" class="button" value="6" onclick="equation('6')"></td>
+                <td><input type="button" class="button" value="*" onclick="equation('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="7" onclick="equation('7')"></td>
+                <td><input type="button" class="button" value="8" onclick="equation('8')"></td>
+                <td><input type="button" class="button" value="9" onclick="equation('9')"></td>
+                <td><input type="button" class="button" value="-" onclick="equation('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="0" onclick="equation('0')"></td>
+                <td><input type="button" class="button" value="." onclick="equation('.')"></td>
+                <td><input type="button" class="button" value="=" onclick="calculation()"></td>
+                <td><input type="button" class="button" value="+" onclick="equation('+')"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="calc2.js"></script>
+</body>
+</html>
