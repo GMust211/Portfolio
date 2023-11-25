@@ -1,0 +1,31 @@
+h3{
+    color: red;
+    }
+.h4{
+    color: violet;
+}
+#h5{
+    color : yellow;
+}
+
+.ptag{
+    background-color: black;
+    color: red;
+    border: 1px solid blue;
+}
+.background{
+    background-color: red;
+    opacity: 0.5;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fhR1z8GyG70I2kVxtMS1kPjj09IvKDCulglMWCwciq00ebDomXbAIFqHkLkIvrpwRNI&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    height: 540px;
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: larger;
+    text-align: right;    
+}

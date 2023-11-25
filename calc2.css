@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+}
+
+.box {
+    background-color: grey;
+    border: 1px;
+    color: rgb(8, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.box:hover {
+    background-color: aliceblue;
+}
+
+#resultBox {
+    background-color: grey;
+    border: 1px;
+    color: rgb(8, 0, 0);
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.button {
+    background-color: green;
+    border: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(126, 241, 126);
+}
+
+.button:active {
+    background-color: rgb(192, 248, 192);
+}
+
+.marq {
+    animation-duration: 0.5ms;
+}
